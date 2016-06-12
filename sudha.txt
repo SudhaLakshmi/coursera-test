@@ -1,0 +1,11 @@
+ Volume in drive C is ACER
+ Volume Serial Number is 1005-BC1F
+
+ Directory of C:\Users\user\coursera-test
+
+12-06-2016  16:10    <DIR>          .
+12-06-2016  16:10    <DIR>          ..
+12-06-2016  16:10                33 README.md
+12-06-2016  16:10                 0 sudha.txt
+               2 File(s)             33 bytes
+               2 Dir(s)  33,712,246,784 bytes free
