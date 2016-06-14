@@ -7,41 +7,39 @@ body{
       margin: 0;
       padding:0;
 	}
-/*.container{
-	background-color:red;
+p{
 	
+	height:50px;
+   width:50px;
 	padding: 10px;
 	border: 5px solid black;
 	margin: 40px;
-    }*/
-P{
+    }
+/*P{
   background-color:pink; 
 	 position:relative;
-	 height:50px;
-   width:50px;
+	 
 	 border:10px solid black;
 
-}
+}*/
 
 
 
-/*.container h3{background-color:violet;
+div h3{background-color:violet;
              float:left;
-             position:absolute;
-             margin-bottom: 15%}*/
+             position:top right;
+             margin-bottom: 5%}
 .section1{background-color:blue;}
 .section2{background-color: green;}
-
-
 .section3{background-color: red;}
 
 
     h1{ position: center;
-              background-color:#FF7F50 ; 
+              background-color:#A52A2A; 
               margin-bottom: 15%;
            }
 
-@media(min-width: 992px;){
+/*@media(min-width: 992px;){
 	.section1{ width:33.33%; }
 	.section2{ width:33.33%; }
     .section3{ width:33.33%; }
@@ -60,4 +58,4 @@ P{
           }
 }
 }
-    }
+    }*/
