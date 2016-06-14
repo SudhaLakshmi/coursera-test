@@ -14,8 +14,7 @@ body{
 	border: 5px solid black;
 	margin: 40px;
     }*/
-
-.container div{
+P{
   background-color:pink; 
 	 position:relative;
 	 height:50px;
@@ -25,13 +24,12 @@ body{
 }
 
 
-.section1{background-color:blue;}
-.container h3{background-color:violet;
+
+/*.container h3{background-color:violet;
              float:left;
              position:absolute;
-                 
-                   margin-bottom: 15%}
-
+             margin-bottom: 15%}*/
+.section1{background-color:blue;}
 .section2{background-color: green;}
 
 
@@ -39,7 +37,7 @@ body{
 
 
     h1{ position: center;
-              background-color:red ; 
+              background-color:#FF7F50 ; 
               margin-bottom: 15%;
            }
 
