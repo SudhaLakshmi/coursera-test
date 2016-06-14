@@ -1,9 +1,15 @@
 .section1{background:#00ffff;
 }
-.section h3{background:#0ffff0;}
+.section h3{background:#0ffff0;
+             float:left;
+             position: top right;}
 
 .section2{background: #ffffff;}
-.section2 h3{background: #ff00ff;}
+.section2 h3{background: #ff00ff;
+                float:left;
+                position: top right;}
 
 .section3{background: #ffff00;}
-.section3 h3{background: #f0000f;}
+.section3 h3{background: #f0000f;
+              float:left;
+              position: top right;}
