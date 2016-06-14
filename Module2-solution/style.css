@@ -7,15 +7,16 @@ body{
       margin: 0;
       padding:0;
 	}
-.container{
+/*.container{
 	background-color:red;
 	
 	padding: 10px;
 	border: 5px solid black;
 	margin: 40px;
-    }
+    }*/
 
 .container div{
+  background-color:pink; 
 	 position:relative;
 	 height:50px;
    width:50px;
@@ -24,22 +25,21 @@ body{
 }
 
 
-.section1{background-color:#00ffff;}
-.container h3{background-color:#ff00ff;
+.section1{background-color:blue;}
+.container h3{background-color:violet;
              float:left;
-             position: absolute;
-                  top;0;
-                   right: 0;
+             position:absolute;
+                 
                    margin-bottom: 15%}
 
-.section2{background-color: green;
+.section2{background-color: green;}
 
 
-.section3{background-color: #ffff00;
+.section3{background-color: red;}
 
 
-   .container h1{ position: center;
-              background-color:#110000 ; 
+    h1{ position: center;
+              background-color:red ; 
               margin-bottom: 15%;
            }
 
