@@ -10,6 +10,7 @@ body{
       padding:0;
 	}
 .section{
+ 
 	background-color:#ff00ff;
 	height:500px;
    width:500px;
@@ -24,16 +25,14 @@ body{
 
 
 .section div h3{background-color:violet;
-             float:left;
-             position: top right;
-            
-             margin-bottom: 15%;}
+           
+             margin-bottom: 5%;}
 
 
-    h1{       position: center;
-              
-              margin-bottom: 15%;
-           }
+    h1{      
+     
+      margin-bottom: 10%;
+      }
 
 /*@media(min-width: 992px;){
 	.section1{ width:33.33%; }
