@@ -17,7 +17,8 @@ body{
 
 .container div{
 	 position:relative;
-	 
+	 height:50px;
+   width:50px;
 	 border:10px solid black;
 
 }
@@ -31,7 +32,7 @@ body{
                    right: 0;
                    margin-bottom: 15%}
 
-.section2{background-color: #ffffff;
+.section2{background-color: green;
 
 
 .section3{background-color: #ffff00;
