@@ -1,6 +1,8 @@
 
 *{
 	box-sizing: border-box;
+  margin:0;
+  padding: 0;
 }
 body{
 	   background-color:gray;
@@ -8,31 +10,24 @@ body{
       padding:0;
 	}
 .section{
-	
-	height:50px;
-   width:50px;
+	background-color:blue;
+	height:500px;
+   width:500px;
 	padding: 10px;
 	border: 5px solid black;
 	margin: 40px;
     }
 /*P{
-  background-color:pink; 
-	 position:relative;
-	 
-	 border:10px solid black;
-
+ 
 }*/
 
 
 
-.section h3{background-color:violet;
+.section div h3{background-color:violet;
              float:left;
              
             
              margin-bottom: 15%;}
-.section1{background-color:blue;}
-.section2{background-color: green;}
-.section3{background-color: red;}
 
 
     h1{       position: center;
