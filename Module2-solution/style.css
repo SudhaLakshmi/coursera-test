@@ -28,14 +28,14 @@ p{
 div h3{background-color:violet;
              float:left;
              position:top right;
-             margin-bottom: 5%}
+             margin-bottom: 15%}
 .section1{background-color:blue;}
 .section2{background-color: green;}
 .section3{background-color: red;}
 
 
-    h1{ position: center;
-              background-color:#A52A2A; 
+    h1{       position: center;
+              
               margin-bottom: 15%;
            }
 
