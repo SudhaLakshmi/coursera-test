@@ -11,7 +11,7 @@ body{
 	}
 .section{
  
-	background-color:#ff00ff;
+	background-color:#ffffff;
 	height:500px;
    width:500px;
 	padding: 10px;
@@ -25,14 +25,10 @@ body{
 
 
 .section div h3{background-color:violet;
-           
-             margin-bottom: 5%;}
+                margin-bottom: 5%;}
 
 
-    h1{      
-     
-      margin-bottom: 10%;
-      }
+    h1{margin-bottom: 10%; }
 
 /*@media(min-width: 992px;){
 	.section1{ width:33.33%; }
