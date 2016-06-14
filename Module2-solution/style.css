@@ -8,7 +8,7 @@ body{
       padding:0;
 	}
 .container{
-	background-color:#010101;
+	background-color:red;
 	
 	padding: 10px;
 	border: 5px solid black;
@@ -23,12 +23,8 @@ body{
 }
 
 
-.section1{background:#00ffff;
-	        
-	       
-	       
-}
-.container h3{background-color:#0ffff0;
+.section1{background-color:#00ffff;}
+.container h3{background-color:#ff00ff;
              float:left;
              position: absolute;
                   top;0;
