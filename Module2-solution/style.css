@@ -7,7 +7,7 @@ body{
       padding:0;
 	   }
 
-section{
+div div{
           clear:right;
 	       background-color:#ffff00;
 	       width:100px;
@@ -23,7 +23,7 @@ section{
 
 
 
-section>h3{background-color:violet;
+div>h3{background-color:violet;
               float:right;
                 margin-bottom: 5%;}
 
