@@ -1,6 +1,7 @@
 x
 
  *{box-sizing:border-box;} 
+
 body{
 	   background-color:red;
       margin: 0;
@@ -23,8 +24,7 @@ body{
 
 
 h3{background-color:violet;
-             
-                margin-bottom: 5%;}
+    margin-bottom: 5%;}
 
 
     h1{margin-bottom: 10%;}
