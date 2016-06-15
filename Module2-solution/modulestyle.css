@@ -1,5 +1,6 @@
 body{background-color: blue;}
-section{
+
+.container section{
 	background-color:red;
 	width:100px;
 	height:100px;
