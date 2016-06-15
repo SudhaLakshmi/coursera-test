@@ -20,9 +20,9 @@ body{background-color: gray;}
 }
 p{ font-size:10px;font-family: sans-serif;width:90%; background-color: violet}
 
-h1{position: relative;top: 0px;right: 50%;font-size: 75%;color: blue}
+h1{text-align:center;color: blue}
 
-section h3{position:absolute; top right;font-size: 25%;border:1px solid black;color:red;background-color:pink;}
+section h3{position:absolute;font-size: 25%;border:1px solid black;color:red;background-color:pink;text-align: top right;}
 @media(min-width: 992px)
 {
 	     #box1{width:33.33%;
