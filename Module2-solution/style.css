@@ -23,12 +23,11 @@ body{
 
 
 h3{background-color:violet;
-              float:right;
+             
                 margin-bottom: 5%;}
 
 
-    h1{margin-bottom: 10%;
-        float:center;}
+    h1{margin-bottom: 10%;}
 
 /*@media(min-width: 992px;){
       	#box1{ width:33.33%; }
