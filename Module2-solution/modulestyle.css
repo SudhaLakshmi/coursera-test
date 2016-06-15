@@ -12,21 +12,27 @@ body{background-color: blue;}
 h1{position: center;}
 @media(min-width: 992px)
 {
-	     #box1{width:33.33%;}
-		  #box2{width:33.33%;}
-	      #box3{width:33.33%;}
+	     #box1{width:33.33%;
+	     	float:left;}
+		  #box2{width:33.33%;
+		        float: left;}
+	      #box3{width:33.33%;
+	             float: left;}
 		
 }
 @media(min-width: 768)and(max-width:991 px){
-	     #box1{width:50%;}
-		  #box2{width:50%;}
-	      #box3{width:100%;}
+	     #box1{width:50%;
+	     	float: left;}
+		  #box2{width:50%;
+		  	float: left;}
+	      #box3{
+	      	clear:both;width:100%;}
 		
 }
 media(max-width: 767px){
-	     #box1{width:100%;}
-		  #box2{width:100%;}
-	      #box3{width:100%;}
+	     #box1{clear:both;width:100%;}
+		  #box2{clear:both;width:100%;}
+	      #box3{clear:both;width:100%;}
 		
 }
 		
