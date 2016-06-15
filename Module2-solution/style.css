@@ -24,12 +24,13 @@ section{
 
 
 
-section  h3{background-color:violet;
+section>h3{background-color:violet;
               float:right;
                 margin-bottom: 5%;}
 
 
-    h1{margin-bottom: 10%; }
+    h1{margin-bottom: 10%;
+    float:center;}
 
 /*@media(min-width: 992px;){
 	.section1{ width:33.33%; }
