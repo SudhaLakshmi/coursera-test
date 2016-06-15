@@ -9,6 +9,7 @@ body{background-color: blue;}
 	padding: 2px;
 	margin:10px;
 }
+h1{position: center;}
 @media(min-width: 992px)
 {
 	     #box1{width:33.33%;}
