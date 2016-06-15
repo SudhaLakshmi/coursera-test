@@ -8,12 +8,13 @@ body{
       padding:0;
 	}
 section{
- 
-	background-color:#ffffff;
+ clear:right;
+	background-color:#ffff00;
 	
-   width:33.33%;
+   width:100px;
+   height: 100px;
 	padding: 10px;
-	border: 5px solid black;
+	border: 2px solid black;
 	margin: 30px;
   float:left;
     }
