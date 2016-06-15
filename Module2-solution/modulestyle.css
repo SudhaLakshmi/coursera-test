@@ -1,6 +1,5 @@
 body{background-color: blue;}
-
-.container div{
+.container{
 	width:100px;
 	height:100px;
 	border: 2px solid black;
