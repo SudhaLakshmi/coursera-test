@@ -1,6 +1,6 @@
 x
 
- *{box-sizing:border-box;} 
+
 
 body{
 	   background-color:red;
@@ -8,7 +8,7 @@ body{
       padding:0;
 	   }
 
-.container div{
+/*.container div{
           
 	       background-color:#A52A2A;
 	       width:100px;
