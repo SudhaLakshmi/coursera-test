@@ -27,8 +27,8 @@
 	     .boxs3{width:100%;}
 		
 }
- span{float:right;font-size:135%;border:1px solid black;background-color:pink;}
-  h1{text-align:center;color: blue;font-size:185%;margin-top:30px;}
-  section p{float:left;clear:right; width:90%;background-color: #FF7F50;height:150px;
-                  font-size:20px;font-family: sans-serif;margin: 10px;}
+ span{float:right;font-size:135%;border:2px solid red;background-color:pink;}
+  h1{text-align:center;color: blue;font-size:185%;margin-top:30px;margin-bottom: 50px;}
+  section p{float:left;clear:right; width:90%;background-color: #FF7F50;height:300px;border:1px solid black;
+                  font-size:20px;font-family: sans-serif;margin:20px;overflow:hidden;}
 
