@@ -1,3 +1,4 @@
 
-nav div h1{text-align: left;}
-
+nav div h1{text-align: left;
+background-color: red;}
+.container-fluid h2{text-align: center;color: #cccccc;}
