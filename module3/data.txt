@@ -1,0 +1,82 @@
+his is a special version of Timidity compiled specifically for the
+Windows version of ZDoom. If you want more information on ZDoom, visit
+<http://zdoom.org/> or <http://zdoom.doomworld.com/>.
+
+A number of features have been disabled, including MOD and archive
+support since they are not needed for playing in-game music. This is
+just for people who cannot or do not want to use wavetable synthesis
+through some other means under Windows, although it can still be used
+as a stand-alone player.
+
+One feature has been enabled that does not work in the standard Windows
+version of Timidity. Sound data can be piped through stdout. This is
+how ZDoom picks up the sound from Timidity and mixes it with the rest
+of the game sounds.
+
+It also has one special feature which lets ZDoom close it at will: a
+named event called "TiMidity Killer". When this event becomes signalled,
+Timidity will quit automatically. This allows ZDoom to change the music
+as needed.
+
+To use this with ZDoom, make sure you can play music from the command line
+first. See the various Timidity help sites if you don't know how. Then
+start ZDoom and open the console.
+
+Set timidity_exe to the full path to the executable. This needs to include
+the ".exe" extension.
+
+If your sound card supports playing multiple waves from different program
+simultaneously (most sound cards in the last few years do), set timidity_pipe
+to 0. Otherwise, set it to the number of milliseconds of data ZDoom will
+buffer and mix with the rest of the sounds. Small values will result in
+better response to music changes but can also cause "crackling" sound if it
+is set too low.
+
+To make ZDoom actually use Timidity for MIDI playback, set snd_mididevice to
+-2 and then use the command snd_reset.
+
+There are various other cvars associated with Timidity. Look in zdoom.ini
+for those under [GlobalSettings] if you are interested in them.
+TOPIC
+    about_Scripts
+
+SHORT DESCRIPTION
+    Describes how to write and run scripts in Windows PowerShell.
+
+LONG DESCRIPTION
+    A script is a plain text file that contains one or more Windows PowerShell
+    commands. Windows PowerShell scripts have a .ps1 file name extension. 
+
+    Writing a script saves a command for later use and makes it easy to share
+    with others. Most importantly, it lets you run the commands simply by typing
+    the script path and the file name. Scripts can be as simple as a single 
+    command in a file or as extensive as a complex program.
+
+    Scripts have additional features, such as the #Requires special comment,
+    the use of parameters, support for data sections, and digital signing for
+    security. You can also write Help topics for scripts and for any functions
+    in the script. 
+
+  HOW TO WRITE A SCRIPT
+
+    A script can contain any valid Windows PowerShell commands, including single
+    commands, commands that use the pipeline, functions, and control structures
+    such as If statements and For loops.
+
+    To write a script, start a text editor (such as Notepad) or a script editor
+    (such as the Windows PowerShell Integrated Scripting Environment [ISE]). Type 
+    the commands and save them in a file with a valid file name and the .ps1 file
+    name extension. 
+
+    The following example is a simple script that gets the services that are
+    running on the current system and saves them to a log file. The log file name
+    is created from the current date.
+
+        $date = (get-date).dayofyear
+        get-service | out-file "$date.log"
+
+    To create this script, open a text editor or a script editor, type these
+    commands, and then save them in a file named ServiceLog.ps1. 
+
+
+  HOW TO RUN A SCRIPT
