@@ -21,12 +21,12 @@ for (var i=0;i<a.length;i++)
  	 {
  	if(a[i][j]=='j'||a[i][j]=='J')
  	{
- 		console.log("Goodbye "+ a[i])
+ 		document.write("Goodbye "+ a[i])
  	}
  
  else{
- 	 console.log("HELLO "+ a[i]);
+ 	 document.write("HELLO "+ a[i]);
  }
  }
- else{console.log("No elements");}
+ else{document.write("No elements");}
 }
