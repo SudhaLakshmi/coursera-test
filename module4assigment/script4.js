@@ -14,19 +14,3 @@ var i=0;
  	
 
 
-for (var i=0;i<a.length;i++)
- {
- 	var j=0;
- 	if(a[i].length!=0)
- 	 {
- 	if(a[i][j]=='j'||a[i][j]=='J')
- 	{
- 	document.getelementById("demo").innerHTML="Goodbye "+ a[i];
- 	}
- 
- else{
- 	 document.getelementById("demo").innerHTML="HELLO "+ a[i];
- }
- }
- else{document.write("No elements");}
-}
