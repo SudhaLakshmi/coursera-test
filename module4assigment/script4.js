@@ -21,11 +21,11 @@ for (var i=0;i<a.length;i++)
  	 {
  	if(a[i][j]=='j'||a[i][j]=='J')
  	{
- 		document.write("Goodbye "+ a[i])
+ 	document.getelementById("demo").innerHTML="Goodbye "+ a[i];
  	}
  
  else{
- 	 document.write("HELLO "+ a[i]);
+ 	 document.getelementById("demo").innerHTML="HELLO "+ a[i];
  }
  }
  else{document.write("No elements");}
