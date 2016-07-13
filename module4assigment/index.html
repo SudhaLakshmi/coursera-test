@@ -8,29 +8,18 @@
 <body> MY  Assigment
 
     <script src="script4.js"></script>
-   <p> 
-  <button  onclick="output()">OUTPUT</button></p>
-          <p id="demo"></p>
-
-    <script>
-    function output(){
-    for (var i=0;i<a.length;i++)
- {
- 	var j=0;
- 	if(a[i].length!=0)
- 	 {
- 	if(a[i][j]=='j'||a[i][j]=='J')
- 	{
- 	document.getElementById("demo").innerHTML="Goodbye "+ a[i];
- 	}
+    
+    <div>
+    <button  onclick="output()">OUTPUT</button>
+    <p id="demo"></p>
+          <script >
+          	function output()
+          	{
+          		var str = fun();
+          		document.getElementById('demo').innerHTML= str ;}
+          </script>
  
- else{
- 	 document.getElementById("demo").innerHTML="HELLO "+ a[i];
- }
- }
- else{document.getElementById("demo").innerHTML="No elements";}
-}
-}
-</script>
+</div>
+    
 </body>
 </html>
