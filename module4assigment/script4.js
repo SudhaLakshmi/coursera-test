@@ -1,5 +1,4 @@
-function fun()
-{
+
 var a=new Array;
 var ch='y';
 var i=0;
@@ -13,7 +12,8 @@ var st=new String;
  	    
 }while(ch=='y'||ch=='Y');
 
-
+function fun()
+{
 
     for (var i=0; i<a.length; i++)
     {
@@ -22,12 +22,12 @@ var st=new String;
  	 {
  	if(a[i][j]=='j'|| a[i][j]=='J') 
  	{
- 		st += "Goodbye "+ a[i] + " "; 
+ 		st += "Goodbye "+ a[i] + "      "; 
  	}
  
       else 
       {
-      	st +=  "HELLO "+ a[i] + " ";
+      	st +=  "HELLO "+ a[i] + "    ";
   	  }
      }
 	}
